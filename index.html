@@ -125,22 +125,26 @@
 	</section>
 	<section class="projects" id="projects">
 		<h2 class="projects__heading section-heading">Projets</h2>
-		<div class="project project-left"><a href="https://bscottnz.github.io/esketch/" target="_blank">
+		<div class="project project-left">
+			<a href="https://s1moxi11.github.io/PNL_Website/" target="_blank">
 				<div class="project__image-container retro">
-					<div class="project__image-image"><img src="imgs/pnl.png" alt="" /></div>
+					<div class="project__image-image">
+						<img src="imgs/pnl.png" alt="PNL Website" />
+					</div>
 				</div>
 			</a>
 			<div class="project__info">
-				<h3 class="project__title">Site internet PNL<br /></h3>
-				<p class="project__description">Site internet dans le cadre d'un projet scolaire</p><a
-					href="https://s1moxi11.github.io/PNL_Website/" target="_blank">
+				<h3 class="project__title">Site internet PNL</h3>
+				<p class="project__description">Site internet dans le cadre d'un projet scolaire</p>
+				<a href="https://s1moxi11.github.io/PNL_Website/" target="_blank">
 					<div class="project__live">Voir site</div>
-				</a><a href="https://github.com/S1moxi11/PNL_Website" target="_blank">
+				</a>
+				<a href="https://github.com/S1moxi11/PNL_Website" target="_blank">
 					<div class="project__code">Voir code</div>
 				</a>
 				<div class="project__details">Détails</div>
 				<div class="project__details-content">
-					<p><strong>Description du projet : </strong>
+					<p><strong>Description du projet SAÉ 14 : </strong>
 						J’ai travaillé sur la réalisation d’un site web autour du groupe PNL. L’objectif principal était
 						de mettre en œuvre mes compétences en développement web (HTML, CSS, JavaScript) et en
 						organisation de contenu pour concevoir une interface attractive, fonctionnelle et responsive.
@@ -208,41 +212,338 @@
 		<div class="project project-right">
 			<div class="project__info">
 				<h3 class="project__title">Création d'un petit réseau</h3>
-				<p class="project__description">Création d'un réseau d'entreprise</p><a
-					href="https://github.com/bscottnz/todo" target="_blank">
-					<div class="project__code">view code</div>
-				</a>
+				<p class="project__description">Création d'un réseau d'entreprise</p>
 				<div class="project__details">Détails</div>
 				<div class="project__details-content">
-					<p>Configuration d'un réseau d'entreprise avec routage, VLAN et sécurité. Utilisation de Cisco
-						Packet Tracer pour la simulation.</p>
+					<p><strong>Description du projet SAÉ 12 : </strong>
+						Ce projet avait pour objectif de concevoir l’évolution d’un réseau informatique d’entreprise
+						devenu obsolète. J’ai été recruté fictivement par une entreprise spécialisée dans le déploiement
+						de la fibre optique afin de concevoir un prototype réseau plus sécurisé et plus performant. Le
+						projet comportait une partie réseau avec l’utilisation de commutateurs Cisco, du routage
+						inter-VLAN, la mise en œuvre de RSTP, l’agrégation de liens, le déploiement de DHCP sur un
+						switch L3, et la configuration d’un plan d’adressage IP structuré. La seconde partie portait sur
+						l’installation et la configuration de services sur une machine virtuelle Debian, incluant un
+						serveur de fichiers, un service web, la gestion des utilisateurs, et la mise en œuvre de bonnes
+						pratiques de sécurité.
+						<br><br>
+						<strong>Compétence visée :</strong>
+						Mettre en place et sécuriser une infrastructure réseau physique et virtuelle
+						<br><br>
+						<strong>Apprentissages Critiques mobilisés :</strong>
+						AC1. Installer et configurer un commutateur ou un routeur Cisco en environnement simulé ou réel
+						AC2. Implémenter un plan d’adressage IPv4 adapté à une infrastructure réseau
+						AC3. Configurer des VLANs, du routage inter-VLAN, et des services réseau sur un switch L3
+						AC4. Installer et configurer des services sur une distribution Linux sans interface graphique
+						AC5. Mettre en œuvre des éléments de sécurisation réseau sur les équipements actifs
+						<br><br>
+						<strong>Rôle personnel et contributions :</strong>
+						J’ai conçu l’architecture VLAN en me basant sur l’organigramme de l’entreprise, paramétré les
+						switches Cisco en suivant les standards RSTP et d’agrégation de liens, et mis en place le
+						routage inter-VLAN. J’ai ensuite configuré un serveur Debian sans interface graphique, avec un
+						partitionnement précis, l’installation de services SMB, TFTP et web, ainsi que la création
+						automatique de comptes utilisateurs avec gestion des droits. Enfin, j’ai appliqué des mesures de
+						sécurité comme l’interdiction de Telnet/HTTP, le déploiement de SSH sécurisé, et la
+						configuration d’un VLAN isolé pour les ports inutilisés.
+						<br><br>
+						<strong>Difficultés rencontrées :</strong>
+						La mise en œuvre du routage inter-VLAN et du DHCP sur un switch L3 a nécessité une compréhension
+						fine des rôles et limites de chaque équipement. Le partitionnement manuel de la VM Debian, sans
+						interface graphique, était également complexe. De plus, l’automatisation de la création
+						d’utilisateurs avec des outils comme newusers et pwgen a représenté un défi technique sans avoir
+						recours à des scripts personnalisés.
+						<br><br>
+						<strong>Traces et preuves :</strong>
+						Captures d’écran des configurations des commutateurs, du routage, des services installés sur
+						Debian.
+						Plan d’adressage IPv4 utilisé.
+						Fichiers de configuration du serveur Debian et copies des tests fonctionnels (ping, accès SMB,
+						SSH, etc.)
+						Compte rendu des tests de performances réseau réalisés avec iperf3
+						<br><br>
+						<strong>Réflexion personnelle et auto-évaluation :</strong>
+						Ce projet m’a permis de me confronter à la complexité d’un réseau d’entreprise réel et de
+						découvrir la rigueur nécessaire à sa configuration. J’ai progressé dans l’utilisation des
+						équipements Cisco et dans la configuration de services Linux sans interface graphique. La
+						documentation officielle et les standards de l’ANSSI m’ont été utiles pour appliquer de bonnes
+						pratiques en matière de sécurité. Je me situe à un niveau satisfaisant pour cette compétence,
+						même si je souhaite encore m’améliorer sur la rédaction de scripts bash robustes et la gestion
+						d’utilisateurs à grande échelle.
 				</div>
-			</div><a href="https://bscottnz.github.io/todo/" target="_blank">
+			</div>
+			<a>
 				<div class="project__image-container todo">
-					<div class="project__image-image"><img src="imgs/12.jpg" alt="" /></div>
+					<div class="project__image-image"><img src="imgs/12.jpg" /></div>
 				</div>
 			</a>
 		</div>
-		<div class="project project-left"><a href="https://bscottnz.github.io/weather-app/" target="_blank">
+		<div class="project project-left"><a href="https://s1moxi11.github.io/API_METEO/" target="_blank">
 				<div class="project__image-container weather">
-					<div class="project__image-image"><img src="imgs/weather.bfcd270635125d60d55252c300c11a97.png"
-							alt="" /></div>
+					<div class="project__image-image"><img src="imgs/weather.png" /></div>
 				</div>
 			</a>
 			<div class="project__info">
-				<h3 class="project__title">the.weather<br />Weather App</h3>
-				<p class="project__description">Retrieve daily and hourly weather forecast data.</p><a
-					href="https://bscottnz.github.io/weather-app/" target="_blank">
-					<div class="project__live">live app</div>
-				</a><a href="https://github.com/bscottnz/weather-app" target="_blank">
-					<div class="project__code">view code</div>
+				<h3 class="project__title">Instant Weather<br /></h3>
+				<p class="project__description">Voir la météo en temps réel dans une ville en France
+				</p><a href="https://s1moxi11.github.io/API_METEO/" target="_blank">
+					<div class="project__live">Voir Site</div>
+				</a><a href="https://github.com/S1moxi11/API_METEO" target="_blank">
+					<div class="project__code">Voir code</div>
 				</a>
 				<div class="project__details">Détails</div>
 				<div class="project__details-content">
-					<p>Configuration d'un réseau d'entreprise avec routage, VLAN et sécurité. Utilisation de Cisco
-						Packet Tracer pour la simulation.</p>
+					<p><strong>Description du projet SAÉ 23 : </strong>
+						Ce projet individuel en JavaScript avait pour but de concevoir une application web dynamique
+						permettant d'afficher des prévisions météorologiques à partir d'une API. Il faisait suite à un
+						premier travail réalisé dans le cadre du module R2.09. J’ai utilisé Visual Studio Code pour le
+						développement, avec un suivi de version effectué via Git et un dépôt public GitHub. L’objectif
+						principal était de manipuler le DOM pour générer dynamiquement du contenu en réponse aux choix
+						de l’utilisateur, tout en respectant les contraintes de mise en forme, d’accessibilité, et de
+						réactivité de l’interface.
+						<br><br>
+						Dans cette version améliorée (V2), l’utilisateur peut désormais choisir le nombre de jours de
+						prévisions météorologiques, de 1 à 7, à l’aide d’une interface simple, sans saisie manuelle. Un
+						système de cases à cocher permet aussi d’afficher des informations supplémentaires comme la
+						latitude et la longitude décimales de la commune, le cumul de pluie sur la journée, la vitesse
+						moyenne du vent à 10 mètres, et sa direction en degrés. Ces données sont intégrées de façon
+						visuelle et claire, notamment via des cartes interactives.
+						<br><br>
+						En plus de ces fonctionnalités obligatoires, j’ai ajouté une fonctionnalité personnelle : un
+						mode sombre (dark mode) activable automatiquement selon les préférences du système de
+						l’utilisateur ou manuellement via un bouton. Cela améliore l’expérience utilisateur tout en
+						respectant les standards modernes d’ergonomie.
+						<br><br>
+						<strong>Compétence visée :</strong>
+						Développer une interface web interactive connectée à une API externe
+						<br><br>
+						<strong>Apprentissages Critiques mobilisés :</strong>
+						AC1. Manipuler le DOM avec JavaScript pour générer dynamiquement du contenu
+						AC2. Utiliser une API en suivant sa documentation technique
+						AC3. Intégrer du contenu web en respectant les normes du W3C et les standards d’accessibilité
+						AC4. Appliquer des bonnes pratiques de versionnage avec Git et GitHub
+						AC5. Concevoir une interface responsive avec une charte graphique cohérente
+						<br><br>
+						<strong>Rôle personnel et contributions :</strong>
+						J’ai conçu entièrement l’interface utilisateur en HTML/CSS, en intégrant un formulaire
+						interactif permettant à l’utilisateur de personnaliser ses recherches météo. J’ai développé la
+						logique JavaScript permettant de traiter la requête à l’API Météo Concept, d’afficher les
+						données pertinentes, et de les adapter selon les choix faits dans les cases à cocher. J’ai
+						également mis en place un système de cartes pour présenter les coordonnées géographiques et les
+						informations météorologiques sélectionnées. Enfin, j’ai implémenté un dark mode et publié
+						l’ensemble du projet sur GitHub avec une version accessible via GitHub Pages.
+						<br><br>
+						<strong>Difficultés rencontrées :</strong>
+						L’une des principales difficultés a été de bien comprendre et utiliser l’API Météo Concept,
+						notamment pour extraire et structurer correctement les données JSON. L’adaptation de l’affichage
+						selon les choix utilisateur tout en maintenant une bonne ergonomie et une compatibilité
+						responsive a également été un défi. Le respect des normes d’accessibilité WCAG et des
+						validateurs W3C a demandé un travail minutieux sur le code HTML et CSS.
+						<br><br>
+						<strong>Traces et preuves :</strong>
+						Code source disponible sur GitHub avec lien vers la version déployée sur GitHub Pages
+						Captures d’écran montrant l’interface en mode clair et sombre, l’affichage dynamique des données
+						météo, et les cartes interactives
+						Fichier README détaillant les fonctionnalités, la documentation de l’API, et les choix
+						techniques effectués
+						<br><br>
+						<strong>Réflexion personnelle et auto-évaluation :</strong>
+						Ce projet m’a permis de renforcer mes compétences en JavaScript, en particulier sur la
+						manipulation du DOM, l’appel à une API, et la gestion d’interfaces interactives. J’ai également
+						mieux compris l’importance des standards du web et de l’accessibilité. Le projet m’a permis
+						d’exprimer ma créativité tout en respectant un cahier des charges précis. Je me sens aujourd’hui
+						plus à l’aise pour concevoir une application web complète, à la fois fonctionnelle et agréable à
+						utiliser.
+				</div>
+
+			</div>
+		</div>
+		<div class="project project-right">
+			<div class="project__info">
+				<h3 class="project__title">Formation en ligne</h3>
+				<p class="project__description">MOOC de l'ANSSI</p>
+				<div class="project__details">Détails</div>
+				<div class="project__details-content">
+					<p><strong>Description du projet SAE 11 : le MOOC de l’ANSSI</strong><br>
+						Ce projet individuel avait pour objectif de suivre et de valider les compétences acquises au
+						travers du MOOC de l’ANSSI dédié à la sécurité informatique. Le MOOC proposait une série de
+						modules permettant de découvrir les fondamentaux de la cybersécurité, les bonnes pratiques pour
+						sécuriser des systèmes informatiques, ainsi que des notions sur la gestion des incidents et la
+						protection des données.
+						<br><br>
+						Au-delà du simple suivi du cours, ce projet consistait à mettre en œuvre des exercices pratiques
+						et des travaux dirigés inspirés du MOOC, visant à ancrer les connaissances théoriques par des
+						applications concrètes. Le travail a été réalisé en autonomie complète, avec un suivi personnel
+						de la progression et un auto-apprentissage approfondi des notions traitées.
+						<br><br>
+						<strong>Compétences visées :</strong>
+						Approfondir les bases de la cybersécurité selon les recommandations officielles de l’ANSSI,
+						comprendre les mécanismes de sécurité des systèmes et réseaux, savoir appliquer les bonnes
+						pratiques, analyser des situations de vulnérabilité et proposer des mesures correctives.
+						<br><br>
+						<strong>Apprentissages mobilisés :</strong>
+						AC1. S’approprier des ressources pédagogiques en ligne pour se former en autonomie
+						AC2. Mettre en œuvre des mesures de sécurisation dans un contexte donné
+						AC3. Comprendre et appliquer les bonnes pratiques relatives à la protection des données
+						AC4. Identifier les risques liés aux systèmes d’information et savoir réagir face aux incidents
+						<br><br>
+						<strong>Rôle personnel et contributions :</strong>
+						J’ai suivi l’intégralité du MOOC, réalisé les exercices proposés, et complété par des recherches
+						personnelles pour approfondir certains sujets. J’ai documenté mes apprentissages au travers de
+						notes structurées et de synthèses, et appliqué des concepts via des mises en situation simulées,
+						par exemple sur la configuration de règles de pare-feu, l’analyse de logs, ou la mise en place
+						de politiques de sécurité.
+						<br><br>
+						<strong>Difficultés rencontrées :</strong>
+						La compréhension de certains concepts théoriques complexes, comme les protocoles
+						cryptographiques ou la gestion des vulnérabilités, a demandé un effort soutenu. La mise en
+						pratique a parfois nécessité de configurer des environnements virtuels et d’utiliser des outils
+						spécifiques, ce qui a représenté un défi technique supplémentaire.
+						<br><br>
+						<strong>Traces et preuves :</strong>
+						Attestations de suivi du MOOC et notes de synthèse personnelles
+						Captures d’écran des exercices validés
+						Journal de bord détaillant les étapes d’apprentissage et les difficultés surmontées
+						<br><br>
+						<strong>Réflexion personnelle et auto-évaluation :</strong>
+						Ce projet m’a permis d’acquérir une base solide en cybersécurité, domaine devenu incontournable
+						dans le secteur informatique. J’ai développé une meilleure compréhension des enjeux liés à la
+						sécurité des systèmes et appris à adopter un comportement proactif face aux risques. Cette
+						expérience me motive à poursuivre ma formation dans ce domaine et à appliquer ces connaissances
+						dans mes projets futurs, afin d’assurer la protection et la résilience des infrastructures
+						numériques.
+					</p>
+				</div>
+
+			</div>
+			<a>
+				<div class="project__image-container todo">
+					<div class="project__image-image"><img src="imgs/mooc.jpg" /></div>
+				</div>
+			</a>
+		</div>
+		<div class="project project-left"><a>
+				<div class="project__image-container weather">
+					<div class="project__image-image"><img src="imgs/13.jpg" /></div>
+				</div>
+			</a>
+			<div class="project__info">
+				<h3 class="project__title">Instant Weather<br /></h3>
+				<p class="project__description">Voir la météo en temps réel dans une ville en France
+				</p>
+				<div class="project__details">Détails</div>
+				<div class="project__details-content">
+					<p><strong>Description du projet SAE 13 : Photométrie en fibre optique</strong><br>
+						Ce projet portait sur la caractérisation d’une liaison fibre optique inconnue, identifiée sous
+						le nom de liaison L5, à l’aide de mesures photométriques. L’objectif principal était d’analyser
+						précisément les pertes de signal sur cette liaison en utilisant des instruments spécifiques et
+						en respectant une méthodologie rigoureuse.
+						<br><br>
+						Le travail a débuté par un calibrage minutieux des deux appareils de mesure afin d’éliminer les
+						pertes induites par les jarretières, ces cordons de raccordement utilisés pour connecter les
+						équipements. Ce calibrage était essentiel pour garantir que les mesures effectuées sur la
+						liaison L5 reflètent uniquement ses caractéristiques intrinsèques, sans être faussées par les
+						éléments auxiliaires.
+						<br><br>
+						Dans le cadre du projet, la longueur d’onde choisie pour l’étude était de 1310 nm, valeur
+						correspondant à une fenêtre de transmission fréquemment utilisée en fibre optique pour réduire
+						les atténuations. La source optique a donc été paramétrée précisément sur cette longueur d’onde,
+						selon la procédure illustrée par l’image ci-dessous. Ce réglage a permis d’assurer une mesure
+						fiable et conforme aux normes en vigueur.
+						<br><br>
+						<strong>Compétences développées :</strong>
+						Ce projet a permis de se familiariser avec les principes fondamentaux de la photométrie en fibre
+						optique, d’apprendre à manipuler les instruments de mesure avec rigueur, et de comprendre
+						l’impact des composants intermédiaires sur la qualité de la liaison. Il a également renforcé la
+						capacité à analyser des données expérimentales pour en extraire des informations pertinentes sur
+						la performance d’une liaison optique.
+						<br><br>
+						<strong>Défis rencontrés :</strong>
+						La précision des calibrages et la nécessité d’éviter toute contamination ou mauvais raccordement
+						ont été des aspects techniques délicats. De plus, l’interprétation des mesures demandait une
+						bonne compréhension des phénomènes physiques liés à la transmission optique.
+						<br><br>
+						<strong>Apports personnels :</strong>
+						J’ai contribué à la préparation du matériel, réalisé les calibrages et participé activement à la
+						prise des mesures. J’ai aussi aidé à l’analyse des résultats pour identifier les éventuelles
+						causes de pertes et proposer des pistes d’amélioration.
+						<br><br>
+						<strong>Bilan personnel :</strong>
+						Ce projet m’a apporté une meilleure maîtrise des techniques de mesure en fibre optique et m’a
+						sensibilisé à l’importance des étapes préliminaires comme le calibrage. J’ai apprécié la
+						dimension concrète de l’expérimentation, qui complète efficacement les connaissances théoriques,
+						et je me sens désormais plus à l’aise pour aborder des analyses techniques complexes dans ce
+						domaine.
+					</p>
 				</div>
 			</div>
+		</div>
+		<div class="project project-right">
+			<div class="project__info">
+				<h3 class="project__title">Poke API Program</h3>
+				<p class="project__description">Traiter des données</p>
+				</a><a href="https://github.com/S1moxi11/PokeApi_Program" target="_blank">
+					<div class="project__code">Voir code</div>
+				</a>
+				<div class="project__details">Détails</div>
+				<div class="project__details-content">
+					<p><strong>Description du projet SAÉ 15 : Traiter des données</strong><br>
+						Le projet SAE 1.05, dans le cadre du programme de Réseaux et Télécommunications à l'IUT Grand
+						Ouest Normandie, consistait à utiliser l'API RESTful de Pokémon pour développer deux outils
+						distincts : l'un pour générer des fiches détaillées sur un Pokémon et l'autre pour produire des
+						statistiques sur les Pokémons.
+						<br><br>
+						Le premier outil, appelé <em>pokefiche</em>, visait à extraire les informations d’un Pokémon via
+						son identifiant dans l'API et à générer une fiche détaillée sur ce Pokémon. Cette fiche devait
+						être au format Markdown et HTML, incluant des informations telles que le poids, la taille, les
+						types et les statistiques du Pokémon, ainsi qu’une image de celui-ci. Pour ce faire, nous avons
+						implémenté plusieurs fonctions : une pour télécharger les données du Pokémon à partir de l'API,
+						une pour convertir ces données en un fichier Markdown, et une autre pour convertir ce Markdown
+						en HTML. Le script final devait permettre de générer la fiche en ligne de commande, avec des
+						résultats qui s’affichent en format HTML dans un navigateur.
+						<br><br>
+						Le deuxième outil, <em>pokestats</em>, avait pour objectif d’analyser des données sur plusieurs
+						Pokémons et de produire des statistiques intéressantes. Parmi les idées proposées, on pouvait
+						trier les Pokémons par taille et comparer la moyenne de leurs points de vie dans différentes
+						catégories, ou encore étudier la répartition des types de Pokémon selon les régions de l'univers
+						Pokémon. Ce projet a impliqué la récupération des données pertinentes via l'API, leur traitement
+						et leur affichage sous forme de statistiques.
+						<br><br>
+						Un des défis majeurs de ce projet a été de travailler avec l'API Pokémon, en particulier pour la
+						gestion des requêtes et la manipulation des données au format JSON. La conversion de Markdown en
+						HTML a également présenté un challenge, car il fallait veiller à ce que le résultat soit propre
+						et conforme aux attentes, notamment pour le fichier HTML.
+						<br><br>
+						<strong>Compétences développées :</strong><br>
+						Ce projet a permis de renforcer mes compétences en Python, notamment dans la gestion d’API
+						RESTful, la manipulation de données au format JSON, et la création de fichiers au format
+						Markdown et HTML. J'ai également appris à travailler avec des bibliothèques externes pour la
+						conversion de formats, ainsi que pour effectuer des analyses statistiques simples.
+						<br><br>
+						<strong>Défis rencontrés :</strong><br>
+						L’un des principaux défis fut de bien comprendre la documentation de l'API Pokémon et de savoir
+						quelles données récupérer pour chacune des fonctionnalités. De plus, l'implémentation du script
+						pour générer des fichiers Markdown et HTML a nécessité une gestion minutieuse des formats et de
+						la structure du code afin de respecter les attentes du projet.
+						<br><br>
+						<strong>Apports personnels :</strong><br>
+						J'ai participé à la conception des fonctions de récupération et de traitement des données de
+						l'API, ainsi qu’à l'implémentation des scripts pour générer les fiches et les statistiques. Ce
+						projet m’a permis d’acquérir une expérience pratique avec les API et d’approfondir ma maîtrise
+						de Python dans un contexte de gestion de données externes.
+						<br><br>
+						<strong>Bilan personnel :</strong><br>
+						Grâce à ce projet, j'ai développé des compétences techniques qui me seront utiles pour l’avenir,
+						en particulier pour les projets liés à l’analyse et au traitement de données. Je suis également
+						devenu plus à l'aise avec la gestion des formats et la création de contenu dynamique en Python.
+						Le projet a aussi renforcé ma capacité à structurer et à présenter des données de manière claire
+						et accessible.
+					</p>
+				</div>
+			</div>
+			<a>
+				<div class="project__image-container todo">
+					<div class="project__image-image"><img src="imgs/15.png" /></div>
+				</div>
+			</a>
 		</div>
 	</section>
 	<section class="contact" id="contact">
