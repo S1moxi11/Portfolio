@@ -177,13 +177,14 @@
 						La mise en ligne du site sur un serveur local ou via GitHub Pages selon les consignes du projet
 						<br><br>
 						<strong> Difficultés rencontrées : </strong>
-						Adapter le site à tous les formats d’écran (responsive design)
-
-						Optimiser le chargement des images et vidéos sans dégrader la qualité
-
-						Résoudre des bugs CSS liés à l’alignement de certains éléments
-
-						Organiser le contenu pour qu’il soit clair et engageant
+						Adapter le site à tous les formats d’écran (responsive design) en utilisant des media queries et
+						un système de grille flexible.
+						Optimiser le chargement des images et vidéos sans dégrader la qualité en implémentant le format
+						WebP et le lazy loading.
+						Résoudre des bugs CSS liés à l’alignement de certains éléments grâce à une meilleure
+						hiérarchisation des classes et à l'utilisation de Flexbox.
+						Organiser le contenu pour qu’il soit clair et engageant en structurant les sections avec des
+						titres pertinents et des appels à l’action visibles.
 						<br><br>
 						<strong> Traces et preuves : </strong>
 						Capture(s) d’écran du site final
@@ -247,10 +248,16 @@
 						<br><br>
 						<strong>Difficultés rencontrées :</strong>
 						La mise en œuvre du routage inter-VLAN et du DHCP sur un switch L3 a nécessité une compréhension
-						fine des rôles et limites de chaque équipement. Le partitionnement manuel de la VM Debian, sans
-						interface graphique, était également complexe. De plus, l’automatisation de la création
-						d’utilisateurs avec des outils comme newusers et pwgen a représenté un défi technique sans avoir
-						recours à des scripts personnalisés.
+						fine des rôles et limites de chaque équipement. La configuration a été réussie en attribuant des
+						interfaces VLAN correctement et en activant le routage IP.
+						Le partitionnement manuel de la VM Debian, sans interface graphique, était également complexe,
+						mais a été maîtrisé en utilisant l’outil cfdisk en mode console.
+						De plus, l’automatisation de la création d’utilisateurs avec des outils comme newusers et pwgen
+						a représenté un défi technique sans avoir recours à des scripts personnalisés. La solution a
+						consisté à générer un fichier d’entrée au bon format et à gérer les droits via des commandes en
+						ligne de commande.
+
+
 						<br><br>
 						<strong>Traces et preuves :</strong>
 						Captures d’écran des configurations des commutateurs, du routage, des services installés sur
@@ -333,10 +340,16 @@
 						<br><br>
 						<strong>Difficultés rencontrées :</strong>
 						L’une des principales difficultés a été de bien comprendre et utiliser l’API Météo Concept,
-						notamment pour extraire et structurer correctement les données JSON. L’adaptation de l’affichage
-						selon les choix utilisateur tout en maintenant une bonne ergonomie et une compatibilité
-						responsive a également été un défi. Le respect des normes d’accessibilité WCAG et des
-						validateurs W3C a demandé un travail minutieux sur le code HTML et CSS.
+						notamment pour extraire et structurer correctement les données JSON. Ce problème a été résolu en
+						utilisant fetch avec des promesses bien chaînées et en testant les réponses via la console.
+						L’adaptation de l’affichage selon les choix utilisateur tout en maintenant une bonne ergonomie
+						et une compatibilité responsive a également été un défi, surmonté grâce à l'utilisation de
+						Flexbox, des media queries, et d’un design centré utilisateur.
+						Le respect des normes d’accessibilité WCAG et des validateurs W3C a demandé un travail minutieux
+						sur le code HTML et CSS, ce qui a été accompli en ajoutant des attributs ARIA, en assurant un
+						bon contraste et en validant régulièrement le code via les outils en ligne du W3C.
+
+
 						<br><br>
 						<strong>Traces et preuves :</strong>
 						Code source disponible sur GitHub avec lien vers la version déployée sur GitHub Pages
@@ -394,9 +407,12 @@
 						<br><br>
 						<strong>Difficultés rencontrées :</strong>
 						La compréhension de certains concepts théoriques complexes, comme les protocoles
-						cryptographiques ou la gestion des vulnérabilités, a demandé un effort soutenu. La mise en
-						pratique a parfois nécessité de configurer des environnements virtuels et d’utiliser des outils
-						spécifiques, ce qui a représenté un défi technique supplémentaire.
+						cryptographiques ou la gestion des vulnérabilités, a demandé un effort soutenu. Cela a été
+						facilité par des recherches ciblées et l’utilisation de schémas explicatifs.
+						La mise en pratique a parfois nécessité de configurer des environnements virtuels et d’utiliser
+						des outils spécifiques, ce qui a représenté un défi technique supplémentaire. Ce défi a été
+						relevé en s’appuyant sur des machines virtuelles sous VirtualBox et en suivant des tutoriels
+						officiels pour maîtriser les outils comme Wireshark ou Metasploit.
 						<br><br>
 						<strong>Traces et preuves :</strong>
 						Attestations de suivi du MOOC et notes de synthèse personnelles
@@ -458,8 +474,11 @@
 						<br><br>
 						<strong>Défis rencontrés :</strong>
 						La précision des calibrages et la nécessité d’éviter toute contamination ou mauvais raccordement
-						ont été des aspects techniques délicats. De plus, l’interprétation des mesures demandait une
-						bonne compréhension des phénomènes physiques liés à la transmission optique.
+						ont été des aspects techniques délicats. Cela a été surmonté en utilisant des kits de nettoyage
+						adaptés et en respectant rigoureusement les procédures de connexion.
+						De plus, l’interprétation des mesures demandait une bonne compréhension des phénomènes physiques
+						liés à la transmission optique. Cette compréhension a été renforcée par l’étude de cas concrets
+						et l’appui sur des documents techniques du fabricant.
 						<br><br>
 						<strong>Apports personnels :</strong>
 						J’ai contribué à la préparation du matériel, réalisé les calibrages et participé activement à la
@@ -520,9 +539,12 @@
 						<br><br>
 						<strong>Défis rencontrés :</strong><br>
 						L’un des principaux défis fut de bien comprendre la documentation de l'API Pokémon et de savoir
-						quelles données récupérer pour chacune des fonctionnalités. De plus, l'implémentation du script
-						pour générer des fichiers Markdown et HTML a nécessité une gestion minutieuse des formats et de
-						la structure du code afin de respecter les attentes du projet.
+						quelles données récupérer pour chacune des fonctionnalités. Ce défi a été relevé en testant les
+						endpoints via Postman et en créant une carte mentale des données utiles.
+						De plus, l'implémentation du script pour générer des fichiers Markdown et HTML a nécessité une
+						gestion minutieuse des formats et de la structure du code afin de respecter les attentes du
+						projet. Cela a été accompli en structurant le script avec des fonctions dédiées à chaque étape
+						(extraction, conversion, génération) et en validant les fichiers générés à chaque itération.
 						<br><br>
 						<strong>Apports personnels :</strong><br>
 						J'ai participé à la conception des fonctions de récupération et de traitement des données de
@@ -591,10 +613,16 @@
 						<br><br>
 						<strong>Défis rencontrés :</strong><br>
 						La planification du travail en autonomie pour les modules CCNA et les ressources Microsoft a
-						nécessité une bonne gestion du temps. L’absence d’accès aux labs de hack a limité l’aspect
-						pratique sur la sécurité, ce qui m’a poussé à compenser par un travail théorique rigoureux à
-						partir des supports fournis. Le TP individuel a également représenté un défi de mise en œuvre
-						technique sous contrainte de temps.
+						nécessité une bonne gestion du temps. Cela a été optimisé en établissant un planning
+						hebdomadaire et en priorisant les chapitres les plus complexes.
+						L’absence d’accès aux labs de hack a limité l’aspect pratique sur la sécurité, ce qui m’a poussé
+						à compenser par un travail théorique rigoureux à partir des supports fournis. J’ai renforcé cela
+						en consultant des démonstrations en ligne et en prenant des notes structurées.
+						Le TP individuel a également représenté un défi de mise en œuvre technique sous contrainte de
+						temps, relevé en préparant en amont les étapes clés et en automatisant certaines tâches
+						répétitives.
+
+
 						<br><br>
 						<strong>Apports personnels :</strong><br>
 						J’ai activement participé aux exercices CCNA, préparé le TP noté avec rigueur en exploitant les
@@ -675,11 +703,15 @@
 						<strong>Défis rencontrés :</strong><br>
 						Les principaux défis incluaient la complexité de l'intégration entre les différentes parties du
 						projet (WAN, LAN, services), la configuration avancée des protocoles de routage, la gestion des
-						interdépendances entre équipements, et le respect des contraintes de sécurité. La coordination
-						en équipe et la répartition des tâches sur un projet de cette envergure ont également représenté
-						un défi organisationnel important. La mise en œuvre du protocole OSPFv3 et la configuration
-						des VLANs avec leurs restrictions d'accès ont nécessité une compréhension approfondie des
-						concepts réseau.
+						interdépendances entre équipements, et le respect des contraintes de sécurité. Ces défis ont été
+						surmontés grâce à une documentation précise, des schémas réseau clairs, et des tests progressifs
+						sur GNS3.
+						La coordination en équipe et la répartition des tâches sur un projet de cette envergure ont
+						également représenté un défi organisationnel important, résolu par l’utilisation d’un Trello
+						partagé et de réunions régulières pour ajuster la charge de travail.
+						La mise en œuvre du protocole OSPFv3 et la configuration des VLANs avec leurs restrictions
+						d'accès ont nécessité une compréhension approfondie des concepts réseau, acquise à travers des
+						exercices pratiques et la consultation des guides Cisco.
 						<br><br>
 						<strong>Apports personnels :</strong><br>
 						J'ai contribué activement à la conception de l'architecture réseau, à la configuration des
@@ -714,7 +746,8 @@
 			</a>
 			<div class="project__info">
 				<h3 class="project__title">Mesurer et caractériser un signal ou un système<br /></h3>
-				<p class="project__description">Exploration des émissions Radioélectriques et chasse au spectre de la téléphonie mobile
+				<p class="project__description">Exploration des émissions Radioélectriques et chasse au spectre de la
+					téléphonie mobile
 				</p>
 				<div class="project__details">Détails</div>
 				<div class="project__details-content">
@@ -767,11 +800,17 @@
 						<br><br>
 						<strong>Défis rencontrés :</strong><br>
 						Les principaux défis incluaient la compréhension des concepts avancés de radiofréquences,
-						la correction et l'optimisation du code MATLAB pour des calculs de puissance précis, la
-						corrélation entre théorie et mesures pratiques, et l'identification fiable des signaux
-						d'opérateurs spécifiques dans un environnement RF complexe. La manipulation du RTL-SDR
-						et l'interprétation des spectres obtenus nécessitaient une compréhension fine des phénomènes
-						de propagation et des caractéristiques des systèmes de téléphonie mobile.
+						surmontée par une reprise approfondie du cours et l’analyse de cas concrets.
+						La correction et l'optimisation du code MATLAB pour des calculs de puissance précis ont été
+						réalisées en vérifiant pas à pas les formules et en comparant les résultats avec des valeurs de
+						référence.
+						La corrélation entre théorie et mesures pratiques, et l'identification fiable des signaux
+						d'opérateurs spécifiques dans un environnement RF complexe ont été facilitées par l'utilisation
+						de filtres adaptés et la comparaison avec les bases de données ARCEP.
+						La manipulation du RTL-SDR et l'interprétation des spectres obtenus nécessitaient une
+						compréhension fine des phénomènes de propagation et des caractéristiques des systèmes de
+						téléphonie mobile, acquise par l’expérimentation répétée et l’analyse de spectres sur différents
+						sites géographiques.
 						<br><br>
 						<strong>Apports personnels :</strong><br>
 						J'ai contribué activement à l'analyse du spectre RF local, à la correction des formules de
